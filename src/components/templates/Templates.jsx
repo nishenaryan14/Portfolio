@@ -4,7 +4,7 @@ export default function Templates() {
   return (
     <div className="templates">
       {projects.map((project) => (
-        <Template url={project.url} key={project.id} />
+        <Template project={project} />
       ))}
     </div>
   );
